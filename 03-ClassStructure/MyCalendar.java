@@ -5,8 +5,10 @@ public class MyCalendar {
     static int days[]={31,28,31,30,31,30,31,31,30,31,30,31};
     static String months[]={"Jan","Feb","Mar","Apr","May","June","July","Aug","Sep","Oct"};
     public static void main(String[] args){
-        System.out.println("Date: "+myDate());
-        System.out.println("Days from the beginning of year: "+myDays());
+        System.out.println("Data w formacie yyyy-mm-dd to "+myDate());
+        System.out.println(myDays());
+        System.out.println(monthName());
+
     }
     static String myDate(){
         return String.format("%04d-%02d-%02d",year,month,day);
@@ -20,10 +22,10 @@ public class MyCalendar {
         return sum+day;
     }
 
-    static String myMonth(){
+    static String monthName(){
 
-        return " ";
+        return months[month-1];
     }
-    }
+}
 
 
