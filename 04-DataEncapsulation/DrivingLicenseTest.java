@@ -9,5 +9,7 @@ public class DrivingLicenseTest {
         dl.dl_number="12341212";
         dl.year_of_issue="2022";
         dl.license_cathegory="B";
+
+        dl.display();
     }
 }

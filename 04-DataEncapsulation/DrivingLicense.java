@@ -1,10 +1,15 @@
 public class DrivingLicense {
-    private String name;
-    private String surename;
-    private String addesss;
-    private String postal_code;
-    private String city;
-    private String dl_number;
-    private String year_of_issue;
-    private String license_cathegory;
+    public String name;
+    public String surename;
+    public String addesss;
+    public String postal_code;
+    public String city;
+    public String dl_number;
+    public String year_of_issue;
+    public String license_cathegory;
+
+    public void display(){
+        System.out.println(name);
+    }
 }
+
