@@ -1,15 +1,15 @@
 public class DrivingLicenseTest {
     public static void main(String[] args) {
         DrivingLicense dl=new DrivingLicense();
-        dl.name="Honorata";
-        dl.surename="Malinowska";
-        dl.addesss="";
-        dl.postal_code="";
-        dl.city="Krakow";
-        dl.dl_number="12341212";
-        dl.year_of_issue="2022";
-        dl.license_cathegory="B";
+        dl.setName("honorata");
+        dl.setSurename("Malinowska");
+        dl.setAddesss("");
+        dl.setPostal_code("");
+        dl.setCity("Krakow");
+        dl.setDl_number("12341212");
+        dl.setYear_of_issue(2022);
+        dl.setLicense_cathegory("B");
 
-        dl.display();
+        System.out.println(dl.toString());
     }
 }
