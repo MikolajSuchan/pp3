@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 
 public class Library {
-    ArrayList<Book> library =new ArrayList<Book>();
+    static ArrayList<Book> library =new ArrayList<Book>();
     
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Book b1= new Book("Wesele","");
         Ebook e1=new Ebook("","","");
         Ebook e2=new Ebook("","","");
